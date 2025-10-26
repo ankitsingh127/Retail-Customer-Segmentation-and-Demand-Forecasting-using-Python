@@ -55,3 +55,34 @@ A core feature is the creation of an interactive dashboard using **Plotly**, whi
 ***
 
 ## 📁 Project Structure
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YourUsername/Retail-Customer-Segmentation-and-Demand-Forecasting.git](https://github.com/YourUsername/Retail-Customer-Segmentation-and-Demand-Forecasting.git)
+    cd Retail-Customer-Segmentation-and-Demand-Forecasting
+    ```
+2.  **Create a virtual environment (Recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Linux/macOS
+    .\venv\Scripts\activate   # On Windows
+    ```
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+### Running the Analysis
+
+The core analysis and dashboard creation is executed within the **Google Colab notebook**.
+
+1.  Open the `Forecast_Visualization.ipynb` file in Google Colab or a Jupyter environment.
+2.  Run all cells sequentially to:
+    * Load and prepare the data.
+    * Train the Prophet model.
+    * Generate the sales forecast and metrics.
+    * Create and export the interactive Plotly dashboard.
+
+***
+
